@@ -13,7 +13,7 @@
 
 body{
     background-color: var(--preta);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Arial', Times, serif;
     color: white;
 }
 
@@ -50,7 +50,7 @@ header nav a:hover{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.jpg');
 
-    height: 400px;
+    height: 600px;
     background-size: cover;
 
     display: flex;
@@ -66,7 +66,7 @@ header nav a:hover{
     
 }
 .filme-principal .titulo{
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -105,3 +105,7 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+
+.carrosel-filmes{
+    margin-top: 10px;
+    }
